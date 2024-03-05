@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header {
+    background-color: transparent;
+    border-style: outset;
+    border-color: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    padding: 5;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: move 35s linear infinite;
+}
+
+@keyframes move {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+
+
+
+
+nav a {
+    color: aqua;
+    text-decoration: none;
+}
+
+nav a :hover {
+    color: chartreuse;
+    text-decoration: underline;
+    cursor: -moz-grabbing;
+}
+
+section {
+margin: 20px 0;
+
+
+}
+
+footer {
+background-color: white;
+color: aqua;
+position: 10px;
+bottom: 0;
+}
