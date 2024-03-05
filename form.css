@@ -1,0 +1,24 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 10px 0;
+}
+
+input, textarea {
+    margin: Spx 0;
+    padding: Spx;
+    width: 300px;
+}
+
+button {
+    padding: 8px;
+    background-color: rgb(174, 0, 255);
+    color: white;
+    font-family: Arial, sans-serif;
+    cursor: grabbing;
+
+}
