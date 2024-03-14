@@ -3,11 +3,11 @@
     max-height: 150px;
     margin: 0 auto;
     padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 10px;
-  justify-items: center;
-  margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
 }
 
 .container img {
@@ -16,17 +16,35 @@
     transition: transform 0.3s ease;
 
 }
-.container figure::after{
+
+.container figure::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5,);
+    background: rgba(0, 0, 0, 0.5, );
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
+.container figure:hover::after {
+    opacity: 0.5;
+}
+
+.container figcaption {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(red, green, Descrição imagem :)blue, 0.5);
+    text-align: center;
+    transition: bottom 0.3s ease;
+}
+
+
 
 figcaption {
     color: white;
@@ -41,7 +59,7 @@ header {
 body {
     background-color: black;
 }
-
+Descrição imagem :)
 figure {
     width: 100%;
     background-color: black;
