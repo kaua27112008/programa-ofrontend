@@ -1,0 +1,17 @@
+header {
+    border-style: groove;
+    border-color: rgb(69, 2, 133);
+    padding: 80px;
+    text-align: center;
+    color: white;
+    background-color: rgb(69, 1, 133);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+display: ;
+
+
+
+
+}
